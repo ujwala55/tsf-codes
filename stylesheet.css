@@ -1,0 +1,189 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main { 
+    position: absolute;
+    background-color: rgba(107,99,250,0.6);
+    background-blend-mode: lighten;
+    width: 600px;
+    height: 757px;
+    padding:0 40px;
+}
+.container {
+    position: absolute;
+    background-color:white;
+    background-blend-mode: lighten;
+    width: 300px;
+    height: 400px;
+    padding:50px 40px;
+    margin-left:30%;
+    margin-top:120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(107,99,250,0.6);
+    border-radius:8px;  
+}
+.image {
+    width:40%;
+    height:30%;
+    padding-left:90px;            
+}
+.container h2{
+    color:rgba(107,99,250,0.6);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    padding-top:20px;
+ }
+ h4{
+     position: absolute;
+     margin-top:10%;
+     margin-left: 15%;
+     color:rgba(8, 8, 8, 0.6);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+.links a i{
+     font-size:30px;
+     color:rgba(4, 38, 189, 0.6);
+     width:30px;
+     margin-top:35%;
+     margin-left:10%;
+ }
+ /* .content{
+     background-color: red;
+     margin-left:44.2%;
+ } */
+.content   h1,h3 {
+     margin-left:60%;
+    padding-top: 70px;
+    color:rgb(8, 8, 8);
+    font-family:verdana;
+ }
+.content  h3 {
+     margin-top:-60px;
+ }
+ .content p{
+     margin-left: -20%;
+ }
+ .content p {
+    display:inline-block;
+    margin-top:20px;
+    margin-left:60%;
+    color:rgba(4, 38, 189, 0.6);
+    font-family:verdana;
+    font-size:25px;
+ }
+ .content h4{
+     margin-top:20px;
+     margin-left:60%;
+     font-size:20px;
+ }
+  .info h5 {
+    margin-top:60px;
+    margin-left:60%;
+    color:rgba(4, 38, 189, 0.6);
+    font-family:verdana;
+    font-size:25px;
+  }
+  .info ul li {
+    margin-top:10px;
+    margin-left:63%;
+    color:rgba(4, 38, 189, 0.6);
+    font-family:verdana;
+    font-size:20px; 
+  }
+ .lists h5 {
+    display:inline;
+    margin-left:60%;
+    margin-top:-10%px;
+    color:rgba(4, 38, 189, 0.6);
+    font-family:verdana;
+    font-size:25px;  
+ }
+ .lists ul li {
+    margin-top:10px;
+    margin-left:63%;
+    color:rgba(4, 38, 189, 0.6);
+    font-family:verdana;
+    font-size:20px; 
+  }
+ .button {
+     background-color: rgba(4, 38, 189, 0.6);
+     color: white;
+     padding: 10px 20px;
+     border: 1px solid rgba(4, 38, 189, 0.6);
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin-top: 90px;
+     margin-left:1050px;
+     border-radius: 20px;
+     font-family: verdana;
+ }
+ .button:hover{
+ background-color: white;
+ color:rgba(4, 38, 189,0.6);
+ }
+ ::selection {
+    color: rgb(255, 255, 255);
+    background: #6b63fa99;
+  }
+  @media screen and (max-width: 600px)
+ {
+    .main{
+        background-color:rgba(107,99,250,0.6);
+        width: 820px;
+        height: 2050px;
+    } 
+    .container{
+        width:700px;
+        height: 900px;
+        margin-left: 280px;
+        margin-top:100px
+    }
+    .image {
+        padding-left: 220px;
+        padding-top:- 1px;
+    }
+   .container h2{
+        font-size: 55px;
+        padding-top: 10px;
+    }
+   .hr {
+        margin-top: -40px;
+    }
+   h4{
+        font-size:45px;
+        margin-left:90px;
+    }
+    .links a i{
+        margin-left:100px;
+        font-size: 80px;
+    }
+     .content h1{
+     width: 300%;
+     padding-top:1200px;
+     font-size:55px;
+     text-align: center;
+    }
+    .content h3{
+        width: 300%;
+        padding-top:100px;
+        font-size:45px;
+        text-align: center;
+    } 
+    .content p{
+     width: 200%;
+     padding-top:30px;
+     font-size:45px;
+     text-align: center; 
+     margin-left:200px ;
+     color:rgb(8, 8, 8);
+    }
+    .info p{
+     width:300%;
+     font-size: 45px;
+     margin-left:180px;
+    }
+    .info ul li{
+        width: 700%;
+    }
+} 
